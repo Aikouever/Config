@@ -58,7 +58,7 @@
 ],
 
   "outbounds": [
-    { "tag": "Proxy", "type": "selector", "outbounds": ["HK", "TW", "SG", "JP","US",  "Others","DIRECT"] },
+    { "tag": "Proxy", "type": "selector", "outbounds": ["{all}"] },
     { "tag": "YouTube", "type": "selector", "outbounds": ["HK", "TW", "SG", "JP","US",  "Others"] },
     { "tag": "OpenAI", "type": "selector", "outbounds":  ["HK", "TW", "SG", "JP","US",  "Others"] },
     { "tag": "Google", "type": "selector", "outbounds":  ["HK", "TW", "SG", "JP","US",  "Others"] },
